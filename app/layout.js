@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en">
-        <body className={`${bbModern.variable} bg-[#B2BC18]`}>
+        <body className={`${bbModern.variable}`}>
         {children}
         </body>
         </html>

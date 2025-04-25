@@ -5,7 +5,7 @@ import EarlHorseLogo from "../public/images/EarlHorse.svg";
 
 export default function Home() {
     return (
-        <div className={"flex flex-col h-dvh w-full md:justify-center items-center text-[#FFFD00] font-bb-modern relative"}>
+        <div className={"flex flex-col h-dvh w-full md:justify-center items-center bg-[#B2BC18] text-[#FFFD00] font-bb-modern relative"}>
             <div className={'absolute min-w-[200px] md:min-w-[300px] top-20 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-1000 ease-in-out'}>
                 <Image src={EarlPantryLogo} alt={'Earl Horse'} width={300} height={300}/>
             </div>
