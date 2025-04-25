@@ -93,7 +93,7 @@ export default function Harvest() {
                 {harvestedTomatoes.length === 0 ? (
                     <p>Drag the tomatoes into the basket!</p>
                 ) : (
-                    <p>You've harvested {harvestedTomatoes.length} tomatoes!</p>
+                    <p>You&#39;ve harvested {harvestedTomatoes.length} tomatoes!</p>
                 )}
             </div>
         </div>
