@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Add direct CSS class for the font */
+.font-bb-modern {
+    font-family: var(--font-bb-modern), sans-serif;
+}
